@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My Website Built with Flexbox</title>
+    <link rel="stylesheet" href="Style.css">
+  
+    
+</head>
+<body>
+    
+    <nav class="navigation">
+        <div class="logo">🏠 My Website</div>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+   
+    <section class="page-section">
+        <div class="container">
+            <div class="blog-intro">
+                <h1>📰 Blog Posts</h1>
+                <p>Responsive card layout using <code class="code-highlight">flex-wrap</code></p>
+                <p>Resize your browser window to see the cards automatically wrap and adjust!</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="page-section">
+        <div class="container">
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Learning CSS Flexbox</h3>
+                        <div class="blog-card-meta">Published on March 15, 2024</div>
+                        <p>My journey learning Flexbox through the interactive tutorial. I started knowing nothing about CSS layout and now I can build responsive websites! The step-by-step approach made complex concepts feel simple.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Building My First Navigation</h3>
+                        <div class="blog-card-meta">Published on March 12, 2024</div>
+                        <p>How I learned to create professional navigation bars using justify-content and align-items. The space-between technique was a game changer - so much easier than I thought it would be!</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Perfect Centering Made Easy</h3>
+                        <div class="blog-card-meta">Published on March 10, 2024</div>
+                        <p>The age-old problem of centering content in CSS, solved elegantly with just two Flexbox properties. After years of complex positioning hacks, this felt like magic!</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Responsive Cards with flex-wrap</h3>
+                        <div class="blog-card-meta">Published on March 8, 2024</div>
+                        <p>Creating card layouts that automatically adjust to screen size without complex media queries. The power of modern CSS never ceases to amaze me. Min-width is the secret sauce!</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Two-Column Layouts</h3>
+                        <div class="blog-card-meta">Published on March 5, 2024</div>
+                        <p>How to create professional main content + sidebar layouts using flex ratios. The 2:1 ratio technique works perfectly every time and scales beautifully across devices.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>From Zero to Flexbox Hero</h3>
+                        <div class="blog-card-meta">Published on March 1, 2024</div>
+                        <p>My complete transformation from CSS beginner to confident web developer, thanks to hands-on practice with real projects. Building actual websites while learning made all the difference.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Understanding Flex Direction</h3>
+                        <div class="blog-card-meta">Published on February 28, 2024</div>
+                        <p>Row vs column layouts and when to use each one. The main axis concept was confusing at first, but once it clicked, everything made sense. Direction controls everything!</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Flexbox vs CSS Grid</h3>
+                        <div class="blog-card-meta">Published on February 25, 2024</div>
+                        <p>When should you use Flexbox and when should you use CSS Grid? This comprehensive comparison helped me choose the right tool for each layout challenge I face.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card-content">
+                        <h3>Mobile-First Responsive Design</h3>
+                        <div class="blog-card-meta">Published on February 22, 2024</div>
+                        <p>How Flexbox makes responsive design intuitive and maintainable. Starting with mobile layouts and scaling up feels so much more natural than the old desktop-first approach.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="page-section">
+        <div class="main-layout">
+            <main class="main-content">
+                <h2>🔧 How the Responsive Card Layout Works</h2>
+                
+                <p>This blog layout demonstrates one of the most powerful Flexbox techniques: responsive cards that automatically wrap and adjust to any screen size.</p>
+
+                <h3>The Magic Formula:</h3>
+                <div class="code-block">
+                    .blog-grid {<br>
+                    &nbsp;&nbsp;display: flex;<br>
+                    &nbsp;&nbsp;flex-wrap: wrap;<br>
+                    &nbsp;&nbsp;gap: 20px;<br>
+                    }<br><br>
+                    .blog-card {<br>
+                    &nbsp;&nbsp;flex: 1;<br>
+                    &nbsp;&nbsp;min-width: 300px;<br>
+                    }
+                </div>
+
+                <h3>What Each Property Does:</h3>
+                <ul>
+                    <li><strong><code>flex-wrap: wrap</code></strong> - Allows cards to move to the next line when they don't fit</li>
+                    <li><strong><code>flex: 1</code></strong> - Makes cards grow to fill available space equally</li>
+                    <li><strong><code>min-width: 300px</code></strong> - Sets the minimum size before wrapping occurs</li>
+                    <li><strong><code>gap: 20px</code></strong> - Creates consistent spacing between all cards</li>
+                </ul>
+
+                <h3>Responsive Behavior:</h3>
+                <div class="info-box">
+                    <p><strong>📱 Mobile (< 600px):</strong> One card per row - perfect for narrow screens</p>
+                    <p><strong>📱 Tablet (600-900px):</strong> Two cards per row - balanced layout</p>
+                    <p><strong>💻 Desktop (> 900px):</strong> Three cards per row - maximizes screen space</p>
+                    <p><strong>🖥️ Large screens:</strong> Cards grow proportionally to fill extra width</p>
+                </div>
+
+                <p><strong>The best part?</strong> No media queries required! The layout adapts automatically based on the container width and the min-width setting.</p>
+            </main>
+
+            <aside class="sidebar">
+                <h3>🎯 Card Layout Tips</h3>
+                
+                <div class="sidebar-card">
+                    <h4>Equal Heights</h4>
+                    <p>Notice how all cards in each row have the same height? That's Flexbox's default stretch behavior working perfectly!</p>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4>Bottom Alignment</h4>
+                    <p>The "Read More" links align at the bottom using <code>margin-top: auto</code> in a flex column layout.</p>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4>Responsive Images</h4>
+                    <p>Cards work great with images too! Just add them above the content and they'll scale perfectly.</p>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4>Customization</h4>
+                    <p>Try changing <code>min-width</code> to 250px or 400px to see different wrapping behaviors!</p>
+                </div>
+
+                <div class="sidebar-card">
+                    <h4>Browser Support</h4>
+                    <p>This technique works in all modern browsers and degrades gracefully in older ones.</p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+   
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <h3>🏠 My Website</h3>
+                    <p>This Blog page showcases responsive card layouts built entirely with CSS Flexbox. Every card adapts automatically to screen size without complex media queries.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Demo Navigation</h4>
+                        <ul>
+                            <li><a href="demo-home.html">Home</a></li>
+                            <li><a href="demo-blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Learn to Build This</h4>
+                        <ul>
+                            <li><a href="index.html">Start Tutorial</a></li>
+                            <li><a href="home.html">Homepage Lesson</a></li>
+                            <li><a href="Blog.html">Blog Layout</a></li>
+                            <li><a href="recap.html">Reference Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Built with ❤️ and CSS Flexbox | <a href="index.html">Learn to build this yourself!</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

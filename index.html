@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+
+    <div style="max-width: 1200px; width: 90%; margin: 40px auto; display: flex; flex-direction: column; gap: 30px;">
+        
+   
+        <header style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); border-radius: 16px; padding: 40px; display: flex; flex-direction: column; align-items: center; text-align: center; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+            <div style="font-size: 60px; margin-bottom: 15px;">👍</div>
+            <h1 style="font-size: 42px; margin: 0 0 10px 0; font-weight: 800; letter-spacing: -0.5px;">Flexbox Mastery</h1>
+            <p style="font-size: 20px; margin: 0; opacity: 0.9; font-weight: 300;">Modern layouts with pure CSS Flexbox</p>
+        </header>
+
+    
+        <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+            
+   
+            <div style="flex: 1; min-width: 300px; background: white; border-radius: 16px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 25px;">
+                <div>
+                    <h2 style="font-size: 28px; margin: 0 0 15px 0; color: #2d3436;">Why Flexbox?</h2>
+                    <p style="font-size: 18px; line-height: 1.6; color: #636e72; margin: 0 0 15px 0;">
+                        A complete <strong style="color: #6c5ce7;">professional website</strong> built entirely with CSS Flexbox.
+                    </p>
+                    <p style="font-size: 18px; line-height: 1.6; color: #636e72; margin: 0;">
+                        Explore modern layouts, responsive design, and clean code - all accomplished using only HTML and CSS Flexbox techniques.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 style="font-size: 22px; margin: 0 0 20px 0; color: #2d3436;">Core Features</h3>
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <div style="display: flex; align-items: center; gap: 15px; padding: 15px; background: #f8f9fa; border-radius: 12px;">
+                            <div style="width: 50px; height: 50px; background: #ffeaa7; border-radius: 10px; display: flex; justify-content: center; align-items: center; font-size: 20px;">🏠</div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; color: #2d3436;">Homepage Layout</h4>
+                                <p style="margin: 0; color: #636e72; font-size: 15px;">Modern and clean design</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: center; gap: 15px; padding: 15px; background: #f8f9fa; border-radius: 12px;">
+                            <div style="width: 50px; height: 50px; background: #d8f8ff; border-radius: 10px; display: flex; justify-content: center; align-items: center; font-size: 20px;">🧭</div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; color: #2d3436;">Navigation Bar</h4>
+                                <p style="margin: 0; color: #636e72; font-size: 15px;">Fully responsive menu</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: center; gap: 15px; padding: 15px; background: #f8f9fa; border-radius: 12px;">
+                            <div style="width: 50px; height: 50px; background: #ffd6e7; border-radius: 10px; display: flex; justify-content: center; align-items: center; font-size: 20px;">📰</div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; color: #2d3436;">Blog Cards</h4>
+                                <p style="margin: 0; color: #636e72; font-size: 15px;">Elegant content presentation</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; align-items: center; gap: 15px; padding: 15px; background: #f8f9fa; border-radius: 12px;">
+                            <div style="width: 50px; height: 50px; background: #c8f7c5; border-radius: 10px; display: flex; justify-content: center; align-items: center; font-size: 20px;">📱</div>
+                            <div>
+                                <h4 style="margin: 0 0 5px 0; color: #2d3436;">Responsive Design</h4>
+                                <p style="margin: 0; color: #636e72; font-size: 15px;">Works on all devices</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+            <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 30px;">
+                <div style="background: white; border-radius: 16px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 20px;">
+                    <h3 style="font-size: 22px; margin: 0; color: #2d3436; text-align: center;">🧭 Explore the Website</h3>
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                        <a href="Home.html" style="flex: 1; min-width: 120px; background: #6c5ce7; color: white; padding: 15px; text-decoration: none; border-radius: 10px; font-weight: 600; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(108, 92, 231, 0.4)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">🏠 Home</a>
+                        <a href="Blog.html" style="flex: 1; min-width: 120px; background: #00cec9; color: white; padding: 15px; text-decoration: none; border-radius: 10px; font-weight: 600; text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 5px 15px rgba(0, 206, 201, 0.4)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">📰 Blog</a>
+                    </div>
+                </div>
+                
+                <div style="background: white; border-radius: 16px; padding: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 20px;">
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <a href="Home.html" style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); color: white; padding: 18px 30px; text-decoration: none; border-radius: 12px; font-weight: 700; font-size: 18px; text-align: center; box-shadow: 0 8px 25px rgba(37, 117, 252, 0.3); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 12px 30px rgba(37, 117, 252, 0.4)'" onmouseout="this.style.transform='none'; this.style.boxShadow='0 8px 25px rgba(37, 117, 252, 0.3)'">🚀 Enter Website</a>
+                        
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+                            <a href="Blog.html" style="color: #6c5ce7; text-decoration: none; font-weight: 600; padding: 12px 20px; border: 2px solid #6c5ce7; border-radius: 10px; transition: all 0.3s ease;" onmouseover="this.style.background='#6c5ce7'; this.style.color='white'" onmouseout="this.style.background='transparent'; this.style.color='#6c5ce7'">📰 View Blog Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer style="background: white; border-radius: 16px; padding: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); text-align: center;">
+            <p style="font-size: 16px; color: #636e72; margin: 0 0 10px 0;">
+                ✨ Professional website built entirely with CSS Flexbox
+            </p>
+            <p style="font-size: 15px; color: #74b9ff; margin: 0;">
+                <a href="https://jovenisrael.github.io/flexbox-prelim/index.html" style="color: #74b9ff; text-decoration: none; font-weight: 600;">Learn how to build this →</a>
+            </p>
+        </footer>
+    </div>
+
+   
+</body>
+</html>
