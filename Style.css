@@ -19,12 +19,12 @@
     --transition: all 0.3s ease;
     }
 
-.jao-container {
+.rizz-container {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
     }
-.jaobody {
+.rizzbody {
     background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
     color: var(--dark);
     min-height: 100vh;
@@ -167,26 +167,7 @@ html {
     margin-bottom: 50px;
 }
 
-.logo-jao {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    height: 90px;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: white;
-    border-radius: 50%;
-    font-size: 2.8rem;
-    margin-bottom: 25px;
-    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.2);
-    transition: var(--transition);
- }
 
-
-
-.logo-jao:hover {
-    transform: scale(1.05) rotate(5deg);
-}
 
 
 .page-section {
@@ -196,7 +177,7 @@ html {
 }
 
 
-.jaoh1 {
+.rizzh1 {
     font-size: 2.8rem;
     font-weight: 700;
     color: var(--dark);
@@ -204,7 +185,7 @@ html {
     letter-spacing: -0.5px;
 }
 
-.jaosubtitle {
+.rizzsubtitle {
     font-size: 1.3rem;
     color: var(--gray);
     font-weight: 400;
@@ -212,27 +193,27 @@ html {
     margin: 0 auto;
 }
 
-.jaodescription {
+.rizzdescription {
     margin-bottom: 60px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.jaodescription p {
+.rizzdescription p {
     font-size: 1.1rem;
     line-height: 1.7;
     color: var(--gray);
     margin-bottom: 20px;
 }
 
-.jaodescription strong {
+.rizzdescription strong {
     color: var(--primary);
     font-weight: 600;
     position: relative;
  }
 
-.jaodescription strong::after {
+.rizzdescription strong::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -982,7 +963,7 @@ html {
         font-size: 2.3rem;
     }
             
-    .jaosubtitle {
+    .rizzsubtitle {
         font-size: 1.1rem;
     }
             
